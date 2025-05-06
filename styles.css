@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div.title#main {
+    font-size:40px;
+    padding-bottom: 20px;
+    border: solid;
+    border-color: rgb(123, 128, 85);
+    background: linear-gradient(rgb(203, 207, 183), rgb(247, 255, 179)), no-repeat;
+}
+
+body {
+    display: flex;
+    font-family: 'Comic Sans MS';
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    background: linear-gradient(rgb(203, 207, 183), rgb(247, 255, 179)), no-repeat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form textarea {
+    width: 100%;
+    min-height: 80px;
+    font-size: 18px;
+    border-radius: 4px;;
+    background: rgb(170, 170, 149);
+}
+
+form button{
+    width: 100%;
+    font-family: 'Comic Sans MS';
+    background: linear-gradient(rgb(203, 207, 183), rgb(247, 255, 179)), no-repeat;
+    cursor: pointer;
+    border-color: rgb(123, 128, 85);
+    border-radius: 4px;
+}
+
+.task_container,
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tasks {
+    padding: 10px;
+    border: 1px solid rgb(192, 192, 138);
+    background: linear-gradient(rgb(203, 207, 183), rgb(247, 255, 179)), no-repeat;
+    border-radius: 5px;
+}
+
+.icon_button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 6px;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.button_container {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+}
+
+.icon_button:hover {
+    background: rgb(228, 228, 228);
+}
+
+marquee {
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+}
