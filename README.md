@@ -29,6 +29,3 @@ Modify the text and and press Enter.
 
 Delete a Task:
 Click the delete icon (🗑️) at the bottom right of the task.
-
-P.S.
-I made this To-Do List project to get an insight on how JavaScript operates with HTML and CSS with this video: https://www.youtube.com/watch?v=OulQ9W2s6Z0
